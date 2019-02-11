@@ -6,6 +6,43 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    
+    <style name="FunctionalButtons">
+        <item name="android:textSize">@dimen/funcButtonTxtSize</item>
+        <item name="android:minHeight">@dimen/minHeightSize</item>
+        <item name="android:textColor">@color/colorButtonTxt</item>
+        <item name="android:background">@drawable/func_round_buttons</item>
     </style>
 
+    <style name="NumberButtons">
+        <item name="android:textSize">@dimen/funcButtonTxtSize</item>
+        <item name="android:minHeight">@dimen/minHeightSize</item>
+        <item name="android:textColor">@color/colorButtonTxt</item>
+        <item name="android:background">@drawable/num_round_buttons</item>
+    </style>
+
+     <style name="ClearButtons">
+        <item name="android:textSize">@dimen/funcButtonTxtSize</item>
+        <item name="android:minHeight">@dimen/minHeightSize</item>
+        <item name="android:textColor">@color/whiteButtonTxt</item>
+        <item name="android:background">@drawable/clear_round_buttons</item>
+    </style>
+
+    <style name="EqualButton">
+        <item name="android:textSize">@dimen/equalButtonTxtSize</item>
+        <item name="android:minHeight">@dimen/minHeightSize</item>
+        <item name="android:textColor">@color/whiteButtonTxt</item>
+        <item name="android:background">@drawable/equal_round_buttons</item>
+    </style>
+
+    <style name="BackButton">
+        <item name="android:textSize">@dimen/funcButtonTxtSize</item>
+        <item name="android:minHeight">@dimen/minHeightSize</item>
+        <item name="android:textColor">@color/whiteButtonTxt</item>
+        <item name="android:background">@drawable/back_round_buttons</item>
+    </style>
 </resources>
