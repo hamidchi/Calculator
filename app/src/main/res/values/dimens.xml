@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_low_space">15dp</dimen>
+    <dimen name="circle_size">65dp</dimen>
+    <dimen name="narrowButtonStroke">0.3dp</dimen>
+    <dimen name="funcButtonTxtSize">25sp</dimen>
+    <dimen name="equalButtonTxtSize">35sp</dimen>
+    <dimen name="mediumTxtSize">25sp</dimen>
+    <dimen name="largeTxtSize">30sp</dimen>
+    <dimen name="xLargeTxtSize">35sp</dimen>
+    <dimen name="minHeightSize">70dp</dimen>
+    <dimen name="smallSpace">5dp</dimen>
+    <dimen name="mediumSpace">10dp</dimen>
+    <dimen name="largeSpace">15dp</dimen>
+    <dimen name="xLargeSpace">20dp</dimen>
+    <dimen name="xxLargeSpace">25dp</dimen>
+</resources>

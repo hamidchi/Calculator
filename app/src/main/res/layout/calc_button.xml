@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/largeSpace">
+
+    <!--testing calc buttons with linearLayout-->
+
+    <!--putting each button in a linearLayout to
+     prevent from stretching button and
+     have same space between all buttons-->
+
+    <!--1st Line Of Buttons-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/lay"
+        android:layout_marginBottom="@dimen/smallSpace"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button_clear"
+                style="@style/ClearButtons"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="AC" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button_percentage"
+                style="@style/FunctionalButtons"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="%" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button_devide"
+                style="@style/FunctionalButtons"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="÷"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button_back"
+                style="@style/BackButton"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="←"
+
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--2nd Line OF Buttons-->
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_above="@+id/lay"
+    android:weightSum="4"
+        android:layout_marginBottom="@dimen/smallSpace">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_seven"
+                style="@style/NumberButtons"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="7"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_eight"
+                style="@style/NumberButtons"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="8"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_nine"
+                style="@style/NumberButtons"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="9"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_multiply"
+                style="@style/FunctionalButtons"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="×"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--3rd Line Of Buttons-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/lay"
+        android:weightSum="4"
+        android:layout_marginBottom="@dimen/smallSpace">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_four"
+                style="@style/NumberButtons"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="4"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_five"
+                style="@style/NumberButtons"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+
+                android:text="5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_six"
+                style="@style/NumberButtons"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="6"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_minus"
+                style="@style/FunctionalButtons"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="ــ"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--4th Line Of Buttons-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/lay"
+        android:weightSum="4"
+        android:layout_marginBottom="@dimen/smallSpace">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_one"
+                style="@style/NumberButtons"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_two"
+                style="@style/NumberButtons"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="2"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_three"
+                style="@style/NumberButtons"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="3"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_sum"
+                style="@style/FunctionalButtons"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="+"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <!--5th Line Of Buttons-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_above="@+id/lay"
+        android:layout_marginBottom="@dimen/smallSpace">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_zero"
+                style="@style/NumberButtons"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="0"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_dot"
+                style="@style/NumberButtons"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="."
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_parentheses"
+                style="@style/FunctionalButtons"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="( )"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/minHeightSize"
+            android:layout_weight="1"
+            android:gravity="center">
+            <Button
+                android:id="@+id/button_equal"
+                style="@style/EqualButton"
+                android:layout_width="@dimen/circle_size"
+                android:layout_height="@dimen/circle_size"
+                android:text="="
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
